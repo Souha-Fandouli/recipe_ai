@@ -1,86 +1,16 @@
-# RecipeAI
+# orange_formation
 
-Une application Flutter intelligente de gestion et recherche de recettes, basée sur une architecture modulaire et évolutive.
+A new Flutter project.
 
-## 🏗️ Architecture
+## Getting Started
 
-Ce projet utilise une architecture inspirée du Clean Architecture :
+This project is a starting point for a Flutter application.
 
-- **lib/core** : utilitaires, constantes, helpers globaux
-- **lib/data** : sources de données (API, local), implémentations des repositories
-- **lib/domain** : entités, repositories abstraits, usecases
-- **lib/presentation** : widgets, pages, gestion d’état (BLoC)
-- **lib/provider** : providers Riverpod (si utilisés)
-- **test/** : tests unitaires et widget
+A few resources to get you started if this is your first Flutter project:
 
-## 📦 Fonctionnalités
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-- Recherche de recettes par ingrédients ou mots-clés
-- Affichage de détails de recette
-- Gestion des favoris (ajout/suppression)
-- Persistance locale (Hive)
-- Appels API (Dio, Retrofit)
-- Gestion d’état avec BLoC
-- UI réactive et moderne (Shimmer, images réseau, etc.)
-- Prise en charge de la caméra et de l’IA (MLKit)
-
-## 🚀 Démarrage rapide
-
-1. **Cloner le projet**  
-   ```bash
-   git clone https://github.com/Souha-Fandouli/recipe_ai.git
-   cd recipe_ai
-   ```
-
-2. **Installer les dépendances**  
-   ```bash
-   flutter pub get
-   ```
-
-3. **Lancer l’application**  
-   ```bash
-   flutter run
-   ```
-
-## 🗂️ Structure des dossiers
-
-```
-lib/
-  core/
-  data/
-    datasources/
-    repositories/
-  domain/
-    entities/
-    repositories/
-    usecases/
-  presentation/
-    bloc/
-    pages/
-    widgets/
-  provider/
-test/
-```
-
-## 🛠️ Technologies
-
-- **Flutter** 3.x
-- **Dart** 3.x
-- **BLoC** pour la gestion d’état
-- **Hive** pour la persistance locale
-- **Dio** & **Retrofit** pour les appels API
-- **MLKit** pour la détection d’objets (IA)
-- **Riverpod** (optionnel)
-
-## 🤝 Contribuer
-
-Les contributions sont les bienvenues !  
-Merci de créer une issue ou une pull request pour toute amélioration.
-
-## 📄 Licence
-
-Ce projet est sous licence MIT.
-
----
-
-> _Made with ❤️ by Souha-Fandouli_
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
